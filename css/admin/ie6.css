@@ -1,0 +1,14 @@
+p#product-info{font-size:1.3em; vertical-align:text-top; position:relative; top:-25px;width:250px;}
+p#terms {width:254px; position:relative; top:-40px;}
+
+.textbox {background-color:#3b2b26; border:#fff solid 1px; height:20px; margin-right:2px; padding:0; color:#fff; font-size:14px; line-height:20px; display:block; float:left; position:relative; top:0}
+.dropdown {background-color:#3b2b26; border:#fff solid 1px; height:24px; color:#fff; font-size:14px; position:relative; top:-15px; display:block; float:left}
+.textbox.name , .textbox.email {width:180px}
+.textbox.mobile {width:120px; top:-15px;}
+.textbox.age {width:58px}
+.dropdown.store{width:182px}
+.dropdown.product{float:left; width:115px; top:-30px;}
+.submitform {position:relative; top:-40px; left:-5px;}
+
+.registerhere {margin-bottom:0px}
+.clear {height:0}

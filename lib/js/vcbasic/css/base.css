@@ -1,0 +1,110 @@
+/* Reset ================================================================================= */
+body{ font:12px/1.55 Arial, Helvetica, sans-serif; color:#2f2f2f;  }
+body, div,dl,dt,dd, ul, ol, li, h1, h2, h3, form, input, textarea, p, table, span, a, form,i{ padding:0px; margin:0px; }
+img{ border:0; vertical-align:top; }
+a { color:#6a6a6a;text-decoration:none; outline:none; }
+a:hover { color:#9a0d10;text-decoration:none; }
+h1,h2,h3,h4,h5,h6 { margin:0 0 5px; line-height:1.35; color:#0a263c; }
+h1{ font-size:20px; font-weight:normal; }
+h2{ font-size:18px; font-weight:normal; }
+h3{ font-size:16px; font-weight:bold; }
+h4{ font-size:14px; font-weight:bold; }
+h5{ font-size:12px; font-weight:bold; }
+h6{ font-size:11px; font-weight:bold; }
+/* Forms */
+form          { display:inline; }
+fieldset      { border:0; }
+legend        { display:none; }
+/* Table */
+table         { border:0; border-spacing:0; empty-cells:show; font-size:100%; }
+caption,th,td { vertical-align:top; text-align:left; font-weight:normal; }
+/* Content */
+.clearfix:after { content:"."; display:block; height:0px; clear:both; visibility:hidden; }
+.clearfix { display:inline-block; }
+.clearfix { display:block; }
+p             { margin:0 0 10px; }
+strong        { font-weight:bold; }
+address       { font-style:normal; line-height:1.35;font-size:12px; }
+/* Lists */
+ul,ol         { list-style:none; }
+/* Form Elements */
+input,select,textarea,button { font:12px/15px Arial, Helvetica, sans-serif; vertical-align:middle; color:#2f2f2f; }
+input.inputText,select,textarea { background:#fff; border:1px solid #b6b6b6; }
+input.inputText,textarea { padding:2px; }
+input.inputText{ float:left;display:block;color: #555555;display: block;height: 14px;padding: 7px 0;width:109px;}
+select { padding:1px; }
+select option { padding-right:10px; }
+select.multiselect option { border-bottom:1px solid #b6b6b6; padding:2px 5px; }
+select.multiselect option:last-child { border-bottom:0; }
+textarea { overflow:auto; }
+input.radio { margin-right:3px; }
+input.checkbox { margin-right:3px; }
+input.qty { width:2.5em !important; }
+button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
+button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
+button.button { overflow:visible; width:auto; border:0; padding:0; margin:0; background:transparent; cursor:pointer; }
+button.button span { display:block; width:36px; height:30px; border:1px solid #de5400; background:#f18200; padding:0 8px; font:bold 12px/19px Arial, Helvetica, sans-serif; line-height:30px; text-align:center; white-space:nowrap; color:#fff; }
+button.button span span { border:0; padding:0; }
+a.buttonRed{ background:#b11016; display:inline-block; text-align:center; padding:8px; color:#fff; font-size:11px;letter-spacing:0.6px;}
+/* Layout  */
+.mainWarp{ overflow:hidden;}
+.colMain{ position:relative;border-top:1px solid #e0e0e0;float:left; width:100%;}
+.bgLeft{float:left;width:49.9%; margin-left:-49.9%; background:#fff; padding-bottom:30000px; margin-bottom:-30000px;}
+.bgRight{float:left;width:49.9%; margin-left:-100%; background:#2b2b2c; padding-bottom:30000px; margin-bottom:-30000px;}
+.contentWidth{ width:940px; margin:0 auto;}
+.logo{ float:left; padding-top:60px;}
+.header{height:144px; position:relative; }
+.rightTop{ float:right; height:51px; padding-top:29px; width:700px;}
+.share{ float:right; padding-top:6px; margin-right:18px;}
+.share a{ margin-right:10px;}
+.rightTop .buttonRed{ float:right;}
+.formSearch{ float:right; width:220px; height:37px; margin-right:15px;}
+.formSearch label{ float:left;width:70px; height:30px; line-height:30px;}
+.colLeft{ float:left; width:219px; padding-top:27px; }
+.colLeft ul.slidNav01 li{ background:#eee; font-weight:bold;}
+.colRight{ background:#fff; min-height:500px;}
+/* nav*/
+.nav{ float:right;width:700px;}
+.nav ul li{ float:left; margin-right:10px;}
+.nav ul li a.navTit{ float:left; background:#eee;height:64px; }
+.nav ul li a.navTit:hover,.nav ul li a.navTit.active{ background:#ccc; color:#9a0d10;}
+/* navDropdown*/
+.navDropdown{ display:none;position:absolute; z-index:1000; top:144px; left:0px;border-top:1px solid #e0e0e0;background-color:#eee; padding:0px 12px 12px; width:916px;height:393px;}
+.navDropdownTitle{ height:42px; padding:22px 26px 0px 24px;}
+a.away{ display:inline-block;height:19px;  background:#f18200; padding:0 8px; font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; white-space:nowrap; color:#fff; float:right;}
+.victorLogo{ position:relative; top:-4px; margin-left:33px;}
+.navDropdown ul.dropdownNav li{ font-weight:bold;font-size:11px;float:left; width:162px;  padding:18px 20px 0px; border-right:1px dotted #8c8c8c; min-height:329px;}
+.navDropdown ul.dropdownNav dl dt{ height:60px;line-height: 18px;}
+.navDropdown ul.dropdownNav dl dt.drop{ background:#fff;}
+.navDropdown ul.dropdownNav dl dd{ display:none;padding-left:20px; padding-bottom:25px;line-height: 14px;}
+/* colLeft*/
+.colLeft ul.slidNav01 li a.slidNav01Tit{ display:block; width:174px; height:40px; padding-top:16px; padding-left:46px; line-height:15px; }
+.colLeft ul.slidNav01 li a.slidNav01Tit:hover,.colLeft ul.slidNav01 li a.slidNav01Tit.active{ padding-left:23px; color:#9a0d10; background:#ccc;width:197px;}
+.colLeft ul.slidNav01 ul.slidNav02{ display:none; font-size:11px;}
+.colLeft ul.slidNav01 ul.slidNav02 li a{ display:block; width:197px; padding-bottom:14px; padding-top:14px; line-height:18px; padding-left:23px;}
+.colLeft ul.slidNav01 ul.slidNav02 li a:hover,.colLeft ul.slidNav01 ul.slidNav02 li a.active{ color:#9a0d10; background:#ccc;}
+/* colRight*/
+.colRight{ float:right; padding-left:33px; padding-top:27px; width:688px;}
+/* footer*/
+.footer{ padding-top:26px;}
+.footNav{ float:left; width:616px;}
+.footNav p{ line-height:25px; color:#808080; font-size:11px;}
+.footNav p a{color:#808080; padding:0px 7px;}
+.footNav p a.first{ padding-left:0px;}
+.footEmail{ float:right; width:324px; padding-top:13px;}
+.footEmail label{ display:inline-block; float:left; height:37px; width:98px; color:#2a2a2a; font-weight:bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

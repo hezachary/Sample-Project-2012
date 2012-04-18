@@ -1,0 +1,621 @@
+.login_form{
+	width: 354px;
+	margin: 50px auto;
+	color: #636363;
+}
+.login_form .row{
+	height: 25px;
+	padding: 1px;
+}
+.login_form .row + *{
+	clear: both;
+}
+.login_form .row label{
+	display: block;
+	width: 100px;
+	float: left;
+}
+.login_form .row label + input{
+	display: block;
+	width: 250px;
+	float: left;
+	border: 1px solid #d6d6d6;
+}
+.login_form .submit{
+	text-align:right;
+}
+.border {
+	border: 2px solid #990000;
+	padding: 5px;
+}
+.border.main {
+	border: 2px solid #FF0000;
+}
+/******************* ***********************/
+body.admin{
+	background: #edf1f2 url(../images/admin_bg.gif) repeat-x 0 0;
+}
+body.admin div.outter_container{
+	background: transparent url(../images/bgadm.gif) no-repeat left top;
+	padding: 1px;
+}
+body.admin div.container{
+	width:1200px;
+}
+body.admin div.container div.body{
+	padding: 1px;
+	background: #fafafa url(../images/content_bg.jpg) no-repeat left bottom;
+	border: 1px solid #c3c7c8;
+	margin-top: 0;
+}
+body.admin div.container > div.footer > div.col_group {
+	width: 1180px;
+}
+body.admin form input[type="button"],
+body.admin form input[type="submit"]{
+	background: #45c7ed url(../images/button_bg.jpg) repeat-x;
+	border: 1px solid #c7cbce;
+	padding: 2px;
+	color: white;
+}
+body.admin #account_div th{
+	text-align: left;
+	color: #949494;
+	text-transform: uppercase;
+}
+body.info{
+	background-color: white;
+	background-image: none;
+}
+table.info{
+	width: 90%;
+	margin: 10px auto;
+}
+table.info tr > th{
+	text-align: left;
+}
+.screen_block{
+	display:  none;
+	position: absolute;
+	background-color: #393694;
+	left: 0;
+	top: 0;
+}
+.top_msg{
+	width: 300px;
+	position: absolute;
+	text-align: center;
+	border: 3px solid #3D3995;
+	background-color: #F5F5F5;
+	display:  none;
+	z-index: 2001;
+}
+.top_display{
+	overflow: auto;
+	position: absolute;
+	text-align: left;
+	border: 3px solid #3D3995;
+	background-color: #F5F5F5;
+	display:  none;
+	z-index: 1001;
+}
+.close_button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	margin: 0;
+}
+.tips_outter{
+	position: static;
+}
+.tips_outter > .tips_inner{
+	position: relative;
+}
+.tips_outter > .tips_inner > .tips_self{
+	position: absolute;
+	left: 5px;
+	top: -10px;
+	border: 2px solid #345985;
+	background-color: white;
+	padding: 5px;
+	display: block;
+	width: auto;
+}
+.tips_outter > .tips_inner > .tips_self.auto_width{
+	width: auto;
+}
+.logo_bg sub{
+	margin-left: 10px;
+}
+.logo_bg a{
+	color: white;
+	text-decoration: none;
+}
+ul.content_view{
+	list-style-type: none;
+	padding: 5px;
+}
+ul.content_list_view{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul.content_view > li + li{
+}
+ul.content_view > li > ul > li,
+ul.content_list_view > li > ul > li{
+	padding: 10px 0 10px 0;
+}
+ul.content_view > li > ul > li + li,
+ul.content_list_view > li > ul > li + li{
+	padding: 0 0 10px 0;
+}
+ul.content_edit{
+	list-style-type: none;
+	margin: 10px 20px;
+	padding: 0;
+}
+ul.content_edit.mini{
+	margin: 10px 30px 10px 10px;
+	padding: 0;
+}
+ul.content_edit > li{
+	padding: 10px 0;
+	border-bottom: 1px dashed #aaaaaa;
+}
+ul.content_edit.mini > li{
+	padding: 5px 0;
+	border-bottom-style: none;
+}
+ul.content_view > li > h3 > .content{
+	font-weight: normal;
+}
+ul.content_edit > li p{
+	font-weight: bold;
+}
+ul.content_edit > li p + p{
+	font-weight: normal;
+	float: none;
+}
+ul.content_edit > li textarea{
+	width: 100%;
+}
+ul.content_edit > li > label,
+ul.content_edit > li > p.title{
+	font-weight: bold;
+	float: left;
+	width: 20%;
+}
+ul.content_edit > li > p.check
+ul.content_edit > li > label + p,
+ul.content_edit > li > input[type="text"],
+ul.content_edit > li > select{
+	width: 70%;
+	float: right;
+}
+ul.content_edit > li > .red,
+ul.content_edit > li > .warning{
+	float: right;
+}
+ul.content_edit.mini > li > label,
+ul.content_edit.mini > li > p.title{
+	font-weight: bold;
+	float: left;
+	width: 40%;
+}
+ul.content_edit.mini > li > p.check
+ul.content_edit.mini > li > label + p,
+ul.content_edit.mini > li > input[type="text"],
+ul.content_edit.mini > li > select{
+	width: 55%;
+	float: right
+}
+ul.content_edit > li input[type="radio"],
+ul.content_edit > li input[type="checkbox"]{
+	vertical-align: middle;
+}
+ul.content_edit > li > label + p{
+	text-align: right;
+	margin: 0;
+}
+ul.content_edit > li > br{
+	font: 0/0 arial;
+	height: 0;
+	clear:both;
+}
+ul.content_edit > li > input#save,
+ul.content_edit > li > input[name="submit"]{
+	float: right;
+}
+
+div.tools {
+	border-top: 1px solid #9B9A99;
+	border-bottom: 1px solid #9B9A99;
+	border-left: 1px solid #9B9A99;
+	border-right: 1px solid #9B9A99;
+	background: #38b1d4 url(../images/tool_bar.gif) repeat-x center top;
+}
+div.tools > ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+div.tools > ul > li{
+	float: left;
+	display: block;
+	padding: 2px 0;
+	height: 20px;
+}
+div.pagination.tools{
+	border-style: none;
+	background: transparent none;
+}
+div.tools > ul.pagination{
+	height: 22px;
+	display: block;
+}
+div.tools > ul.pagination > li{
+	display: block;
+	padding: 1px;
+	margin-left: 5px;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div.tools > ul.pagination > li > a{
+	display: block;
+	padding: 0 5px;
+	height: 20px;
+	font: bold 12px/20px arial;
+	border: 1px solid #d8d8d8;
+	text-align:center;
+	text-decoration: none;
+	background: #43c4eb url(../images/tool_bar.gif) repeat-x;
+	color: white;
+}
+div.tools > ul.pagination > li.selected > a{
+	background: #65d6ff none;
+}
+div.tools > ul.pagination > li > a:hover{
+	background: #3cb3d5 none;
+}
+div.tools > ul.pagination > li + li{
+}
+
+div.tools > ul > li.clear{
+	float: none;
+	clear: both;
+	padding: 0;
+}
+div.tools > ul > li.end{
+	float: right;
+}
+div.tools > ul > li > span.disable{
+	display: inline-block;
+	color: grey;
+	text-decoration:line-through;
+}
+.tool_icon {
+	margin: 0 2px;
+	display: inline-block;
+	padding: 4px 5px;
+	border: 1px solid #9B9A99;
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: #9B9A99;
+	border-bottom-color: #9B9A99;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 2px 0 #1aa4cb;
+	text-transform: uppercase;
+	filter: Shadow(Color=#1aa4cb, Direction=135, Strength=1);
+	font: 10px/22px tahoma;
+	background: #43c4eb url(../images/tool_bar.gif) repeat-x center top;
+	vertical-align:middle;
+}
+div.tools > ul > li > .tool_icon {
+	border: 1px solid transparent;
+	background: transparent none;
+}
+.tool_icon:hover{
+	border-top-color: #9B9A99;
+	border-left-color: #9B9A99;
+	border-right-color: white;
+	border-bottom-color: white;
+	background-color: #65d6ff;
+}
+div.tools > ul > li > .tool_icon:hover{
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: #9B9A99;
+	border-bottom-color: #9B9A99;
+	background-color: #65d6ff;
+}
+div.tools > ul > li > .tool_icon.selected {
+	border-top-color: #9B9A99;
+	border-left-color: #9B9A99;
+	border-right-color: white;
+	border-bottom-color: white;
+	background-color: #65d6ff;
+}
+.tool_icon > img.invisible,
+.tool_icon > span.invisible{
+	display: none;
+}
+.tool_icon > img + span{
+	margin-top: 4px;
+}
+.tool_icon > img.invisible + span{
+	margin-top: 0;
+}
+.tool_icon > img{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.tool_icon > span{
+	display: block;
+	font: 10px/10px tahoma;
+	white-space: nowrap;
+	text-align: center;
+}
+
+div.tool_bar {
+	padding: 2px;
+	background: #E6E4E1 url(../images/tool_bar.gif) repeat-x center top;
+	border: 1px solid #9B9A99;
+	postion: relative;
+}
+div.tool_bar ul.operate_list,
+div.tool_bar ul.function_list{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 20px;
+}
+div.tool_bar ul.operate_list{
+	float: left;
+}
+div.tool_bar ul.function_list{
+	float: right;
+}
+div.tool_bar > ul > li{
+	margin: 0 4px;
+	padding: 0;
+	float: left;
+	height: 20px;
+}
+div.tool_bar > ul > li > a{
+	border: 1px solid transparent;
+	margin-top: 1px;
+	height: 16px;
+	display: block;
+	font: 10px/16px Tahoma, Arial;;
+	padding: 0 6px;
+	text-decoration: none;
+	color: #292928;
+	text-shadow: 0 2px 0 white;
+	text-transform: uppercase;
+	filter: Shadow(Color=white, Direction=135, Strength=1);
+}
+div.tool_bar > ul > li > a.selected,
+div.tool_bar > ul > li > a:hover{
+	border: 1px solid #ADAAA5;
+	box-shadow: 0 0 1px #ADAAA5;
+	-moz-box-shadow: 0 0 1px #ADAAA5;
+	-webkit-box-shadow: 0 0 1px #ADAAA5;
+	-khtml-box-shadow: 0 0 1px #ADAAA5;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+div.tool_bar > ol.bread_crumbs{
+	margin: 2px 4px 2px 4px;
+	padding: 2px;
+	display: block;
+	background-color: white;
+	border: 1px solid #ADAAA5;
+	font: 10px/16px Verdana, Arial;
+	text-indent: 5px;
+}
+div.tool_bar > ol.bread_crumbs > li > span,
+div.tool_bar > ol.bread_crumbs > li > a{
+	font-size: 10px;
+}
+body.admin div.container > div.header{
+	background-color: transparent;
+	margin-top: 0;
+	height: 94px;
+}
+body.admin div.container > div.header > div.logo_bg_l{
+	height: 55px;
+}
+body.admin div.container > div.header > div.logo_bg_l > div.logo_bg_r > .logo_bg{
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 15px;
+	width: auto;
+}
+body.admin div.container > div.header h1.logo_bg span{
+	border: 1px none #760708;
+	padding-right: 10px;
+}
+body.admin div.container > div.header h1.logo_bg span > a{
+	font-size: 12px;
+	line-height:16px;
+	color: #1aa4cb;
+	background-color: white;
+	padding: 2px 5px;
+	border: 2px solid #1aa4cb;
+}
+body.admin div.container > div.header > div.nav{
+	height: 38px;
+	background-color: transparent;
+	border-style: none;
+	border-top: 1px solid #C3C7C8;
+	border-left: 1px solid #C3C7C8;
+	border-right: 1px solid #C3C7C8;
+}
+body.admin div.container > div.header > div.nav ul{
+	line-height:38px;
+	font-size:12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 7px;
+	background: #1aa4cb url(../images/nav_bg.gif) repeat-x;
+}
+body.admin div.container > div.header > div.nav ul li{
+	height: 38px;
+}
+body.admin div.container > div.header > div.nav ul li + li a{
+	border-left: 1px solid white;
+	padding-left: 16px;
+}
+body.admin div.content > div.page_content,
+body.admin div.content > div.language_content,
+body.admin div.content > div.sub_list{
+}
+body.admin div.content > div,
+body.admin div.custom_field > div.page_content{
+	margin-top: 10px;
+	border: 1px none #9B9A99;
+}
+body.admin div.custom_field > div > ul.content_list_view > li{
+	border-style: none;
+}
+body.admin div.custom_field > div > ul.content_list_view > li + li{
+	border-top: 1px solid #9B9A99;
+}
+body.admin div.custom_field > div div.content_list_view ul.line_info{
+	display: block;
+	margin: 2px;
+	padding: 0;
+	background-color: #e2e7ea;
+}
+body.admin div.custom_field > div div.content_list_view ul.line_info + *{
+	padding: 5px;
+}
+body.admin div.custom_field > div div.content_list_view ul.line_info > li{
+	display: inline;
+}
+body.admin div.custom_field > div div.content_list_view ul.line_info > li + li{
+	margin-left: 10px;
+}
+body.admin div.custom_field{
+	padding: 5px 20px 270px 20px;
+	
+}
+body.admin div.content > div > h2,
+body.admin div.content > div > form > h2,
+body.admin div.custom_field > div.page_content > h2,
+body.admin div.custom_field > div.page_content > form > h2,
+body.admin div.custom_field > div.page_content > ul.content_list_view > li > h2{
+	margin: 0;
+	padding: 5px;
+	color: #666666;
+	font-size: 15px;
+}
+body.admin div.custom_field > div.page_content div.content_list_view > div.review_item{
+	border: 1px solid #a6cfe4;
+}
+body.admin div.custom_field > div.page_content div.content_list_view > div.review_item.alt{
+	background-color: #f0f0f0;
+}
+body.admin div.custom_field > div.page_content div.content_list_view > div.review_item .tool_bar{
+	margin: 5px 10px;
+}
+body.admin div.custom_field > div.page_content > ul.content_list_view > li > h2{
+	font-size: 1em;
+}
+body.admin div.custom_field > div.page_content table.image_list {
+	width: 100%;
+}
+body.admin div.custom_field > div.page_content table.image_list > thead{
+	background-color: #1aa4cb;
+	color: white;
+	font: bold 11px/18px arial;
+}
+body.admin div.custom_field > div.page_content table.image_list th,
+body.admin div.custom_field > div.page_content table.image_list td{
+	
+}
+body.admin div.custom_field > div.page_content table.image_list th + th,
+body.admin div.custom_field > div.page_content table.image_list td + td,
+body.admin div.custom_field > div.page_content table.image_list td + th,
+body.admin div.custom_field > div.page_content table.image_list th + td{
+	padding-left: 2px;
+}
+body.admin div.custom_field > div.page_content table.image_list th span,
+body.admin div.custom_field > div.page_content table.image_list th span a{
+	color: white;
+}
+body.admin div.custom_field > div.page_content table.image_list > tbody{
+	background-color: white;
+	font: 11px/20px arial;
+	color: #555555;
+}
+body.admin div.custom_field > div.page_content table.image_list > tbody > tr.alt{
+	background-color: #e2e7ea;
+}
+form.normal_form input[type="submit"]{
+	width: 80px;
+	text-align: center;
+	margin: 5px;
+}
+form.normal_form table input[type="submit"]{
+	margin-right: 1px;
+}
+body.admin div.custom_field > div.page_content > iframe.iframe {
+	height: 600px;
+	border: 0 none white;
+}
+body.admin div.container > div.footer > div.col_group > div > h3{
+	color: white;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	width: 90%;
+}
+fieldset.publish{
+	position: relative;
+	
+}
+.publish.false{
+	background-color: #eeeeee;
+}
+.publish.false h3,
+.publish.false p{
+	color: #dddddd;
+}
+p.function_list{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 12px;
+	top: -5px;
+}
+form p.submit {
+	text-align:right;
+	padding-right: 5px;
+}
+form .tool_bar{
+	text-align: right;
+	margin: 0;
+	
+}
+th > .block_link,
+td > .block_link{
+	display:block;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+}
+th > .block_link.left,
+td > .block_link.left{
+	text-align: left;
+}
+th > .block_link:hover,
+td > .block_link:hover{
+	background-color: #eeeeee;
+}

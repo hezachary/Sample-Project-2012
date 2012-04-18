@@ -1,0 +1,582 @@
+.accessibility{
+    display: none;
+}
+.clear{
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    float: none;
+    display: block;
+    clear: both;
+}
+.gap{
+    display: block;
+    clear: both;
+    font: 0/0 arial;
+    height: 26px;
+    float: none;
+}
+.indent_3{
+    padding-left: 12px;
+}
+.indent_4{
+    padding-left: 14px;
+}
+body
+{
+    padding: 2px 20px;
+	background-color: #fbfbfb;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+    margin: 0;
+    color: #6a6a6a;
+}
+a{
+    text-decoration: none;
+}
+.member_list{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+}
+/***************Left hand tool bar************/
+.siteNav
+{
+    display: block;
+	width: 236px;
+    position: absolute;
+    top: 26px;
+    left: 20px;
+}
+.content{
+    display: block;
+    margin-left: 236px;
+    
+}
+.siteNav .logo{
+    display: block;
+}
+.siteNav .text_search{
+    margin:  11px 0 14px 0;
+}
+.siteNav .text_search .search_field .input_search_field{
+    width: 190px;
+    border: 1px solid #bcbdc0;
+    height: 15px;
+    padding: 5px;
+    line-height: 15px;
+    background-color: white;
+    float: left;
+}
+.siteNav .text_search .search_field .submit_search_field{
+    float: right;
+    display: block;
+    width: 29px;
+    height: 27px;
+    background: transparent url(../images/btn_search.gif) no-repeat;
+}
+.siteNav .category_list{
+    margin-bottom: 3px;
+}
+.siteNav .category_list ul,
+.siteNav .category_list ul li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.siteNav .category_list ul li{
+    display: block;
+    width: 236px;
+    height: 27px;
+    line-height: 27px;
+    margin-bottom: 1px;
+    background-color: white;
+}
+.siteNav .category_list ul li.all_entry{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.siteNav .category_list ul li a{
+    color: black;
+    display: block;
+    line-height: 27px;
+    height: 27px;
+    padding: 0 13px;
+}
+.siteNav .category_list ul li.all_entry a,
+.siteNav .category_list ul li.all_entry a:hover{
+    color: white;
+    background: #181818 url(../images/bg_search_all.gif) no-repeat center right;
+}
+.siteNav .category_list ul li.selected a,
+.siteNav .category_list ul li.selected a:hover{
+    background: #009dff none no-repeat;
+    color: white;
+    font-weight: bold;
+}
+.siteNav .category_list ul li a:hover{
+    background: #e6e6e6 none no-repeat;
+}
+.siteNav .page_links{
+    border-top: 2px solid #181818;
+    border-bottom: 1px solid #181818;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    position: static;
+    margin-bottom: 11px;
+}
+.siteNav .page_links .linkBox{
+    margin-bottom: 14px;
+    border-bottom: 2px solid #181818;
+}
+.siteNav .page_links .linkBox p{
+    line-height: 16px;
+    height: 16px;
+    margin-bottom: 14px;
+}
+.siteNav .page_links .linkBox p + p{
+    margin-bottom: 14px;
+}
+.siteNav .page_links .linkBox p a{
+    display: block;
+    line-height: 16px;
+    height: 16px;
+    color: #181818;
+    background: transparent none no-repeat right center;
+    padding-right: 20px;
+    overflow: hidden;
+}
+.siteNav .page_links .linkBox p a:hover{
+    color: #868686;
+}
+.siteNav .page_links .linkBox p a.pdf{
+    background-image: url(../images/pdf.gif);
+}
+
+.siteNav .page_links .shareBox{
+    position: relative;
+    margin-bottom: 14px;
+}
+.siteNav .page_links .shareBox .subject{
+    color: #181818;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    font-weight: bold;
+}
+.siteNav .page_links .shareBox .subject_right{
+    float: right;
+    margin-right: 40px;
+    height: 16px;
+    line-height: 16px;
+}
+.siteNav .page_links .shareBox .shareIcon{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 16px;
+    height: 16px;
+}
+.siteNav .page_links .shareBox .shareIcon.tw{
+    background: #6a6a6a url(../images/twitter.gif) no-repeat;
+    right: 0;
+}
+.siteNav .page_links .shareBox .shareIcon.fb{
+    background: #6a6a6a url(../images/facebook.gif) no-repeat;
+    right: 18px;
+}
+.siteNav .page_links .yg_copyright a{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 28px;
+    width: 236px;
+    background: transparent url(../images/yg_footer_logo.gif) no-repeat;
+}
+.siteNav .page_links .yg_copyright a span{
+    display: none;
+}
+.siteNav .page_footer{
+    position: static;
+}
+.siteNav .page_footer .reborn_developed{
+    position: relative;
+}
+.siteNav .page_footer .reborn_developed .subject{
+    display: block;
+    margin-right: 100px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 11px;
+}
+.siteNav .page_footer .reborn_developed .reborn_logo{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 91px;
+    height: 17px;
+    background: transparent url(../images/reborn_logo.gif) no-repeat;
+}
+.siteNav .page_footer .reborn_developed .reborn_logo span{
+    display: none;
+}
+
+/****<--------------- Search List --------------->****/
+.content .top_bar{
+    position: static;
+    border-bottom: 2px solid #181818;
+    margin-left: 20px;
+}
+.content .top_bar .left{
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    float: left;
+    height: 15px;
+    padding: 7px 0;
+}
+.content .top_bar .right{
+    font-size: 12px;
+    text-transform: uppercase;
+    float: right;
+}
+.content .top_bar .left .counts{
+    display: block;
+    height: 15px;
+    background: #009dff url(../images/coner.gif) no-repeat right bottom;
+    padding-right: 12px;
+    float: left;
+    line-height: 15px;
+}
+.content .top_bar .left .counts .inner{
+    display: block;
+    height: 15px;
+    background: #009dff url(../images/coner.gif) no-repeat left top;
+    padding-left: 12px;
+    text-align: center;
+    color: white;
+    line-height: 15px;
+    font-size: 11px;
+}
+.content .top_bar .left .desc{
+    float: left;
+    display: block;
+    height: 15px;
+    margin-left: 7px;
+    color: #181818;
+    line-height: 15px;
+}
+.content .top_bar .right .panel {
+    height: 15px;
+    padding: 7px 10px;
+    position: relative;
+    background-color: transparent;
+    text-transform: capitalize;
+}
+.content .top_bar .right .panel.expended{
+    background-color: white;
+}
+.content .top_bar .right .panel.panel_filter{
+    
+}
+.content .top_bar .right .panel .subject{
+    display: block;
+    background: transparent url(../images/btn_expand.gif) no-repeat right top;
+    width: 154px;
+    padding-right: 16px;
+    height: 15px;
+    line-height: 15px;
+    color: #6a6a6a;
+}
+.content .top_bar .right .panel.expended .subject{
+    background-position: right -15px;
+}
+.content .top_bar .right .panel .subject strong{
+    color: #181818;
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.content .top_bar .right .panel .subject span{
+    font-weight: bold;
+}
+.content .top_bar .right .panel .sub_panel{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 10px;
+    width: 170px;
+    background-color: white;
+    z-index: 9999;
+}
+.content .top_bar .right .panel.expended .sub_panel{
+    border-bottom: 2px solid #181818;
+}
+.content .top_bar .right .panel .sub_panel li{
+    display: block;
+    line-height: 17px;
+    height: 17px;
+    margin: 0 0 4px 0;
+}
+.content .top_bar .right .panel .sub_panel li a,
+.content .top_bar .right .panel .sub_panel li span{
+    color: #181818;
+    display: block;
+    line-height: 17px;
+    height: 17px;
+    margin-top: 3px;
+    padding: 0 0 0 3px;
+}
+.content .top_bar .right .panel .sub_panel li span{
+    font-weight: bold;
+    color: #009dff;
+}
+.content .top_bar .right .panel .sub_panel li a:hover{
+    color: #6a6a6a;
+    background-color: #e6e6e6
+}
+/**********************Block List***************/
+#container .no_results{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font: bold 12px/20px arial;
+}
+#container .box{
+    display: block;
+    width: 172px;
+    border-bottom: 17px solid #009dff;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+#container .box .award{
+    float: right;
+    width: 23px;
+    height: 23px;
+    background: transparent url(../images/award_list.gif) no-repeat left bottom ;
+    margin-top: 11px;
+}
+#container .box .award.gold{
+    background-position: 0 0;
+}
+#container .box .award.silver{
+    background-position: 0 -23px;
+}
+#container .box .award.bronze{
+    background-position: 0 -46px;
+}
+#container .box .award.finalist{
+    background-position: 0 -69px;
+}
+#container .box .award span{
+    display: none;
+}
+#container .box .member_list{
+    padding-left: 3px;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    width: 142px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 76px;
+}
+#container .box .member_list a{
+    color: #181818;
+}
+#container .box .subject{
+    font-weight: bold;
+    font-size: 11px;
+    color: #181818;
+    line-height: 14px;
+    height: 14px;
+    overflow: hidden;
+    padding-left: 1px;
+}
+#container .box .desc{
+    font-size: 11px;
+    color: #6a6a6a;
+    line-height: 15px;
+    height: 15px;
+    overflow: hidden;
+    margin-bottom: 18px;
+    padding-left: 1px;
+}
+.tooltip{
+    display: block;
+    text-align: center;
+    height: 21px;
+    line-height: 21px;
+    width: auto;
+    padding: 0 10px 6px 10px;
+    background: transparent url(../images/bg_tip.gif) no-repeat center top;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+/*******************Detail Page*********************/
+#profile_detail{
+    margin-left: 20px;
+    width: 685px;
+}
+#profile_detail .nav-bar{
+    height: 35px;
+    padding: 1px 0;
+    border-bottom: 2px solid #181818;
+}
+#profile_detail .addthis_toolbox{
+   margin-top: 14px;
+   margin-bottom: 12px;
+}
+#profile_detail .nav-bar a.close{
+    display: block;
+    float: right;
+    height: 23px;
+    line-height: 23px;
+    margin: 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    background: transparent url(../images/btn_close.gif) no-repeat right center;
+    padding-right: 18px;
+}
+#profile_detail .member_list{
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #181818;
+    float: left;
+    font-size: 15px;
+    line-height: 19px;
+}
+#profile_detail .desc{
+    width: 450px;
+    float: right;
+}
+#profile_detail .desc th{
+    color: #181818;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 50%;
+    padding-left: 5px;
+}
+#profile_detail .desc td{
+    color: #6a6a6a;
+    height: 26px;
+    line-height: 26px;
+    padding-bottom: 16px;
+    padding-left: 5px;
+}
+#profile_detail .desc td .award{
+    background: transparent url(../images/award_list.gif) no-repeat -5px bottom ;
+    padding-left: 23px;
+    display: block;
+    height: 23px;
+}
+#profile_detail .desc td .award.gold{
+    background-position: -5px 0;
+}
+#profile_detail .desc td .award.silver{
+    background-position: -5px -23px;
+}
+#profile_detail .desc td .award.bronze{
+    background-position: -5px -46px;
+}
+#profile_detail .desc td .award.finalist{
+    background-position: -5px -69px;
+}
+/****************welcome overlay*******************/
+.overlay {
+	display:none;
+	width: 565px;
+    height: 478px;
+	/* some padding to layout nested elements nicely  */
+	padding: 89px 35px 33px 35px;
+	/* a little styling */	
+	font-size:11px;
+    background: transparent url(../images/overlay_bg.png) no-repeat left top;
+}
+#extra_popup.overlay{
+    height: 145px;
+    background-image: url(../images/overlay_bg_small.png);
+}
+/* default close button positioned on upper right corner */
+.overlay .close {
+	background-image:url(../images/close.png);
+	position:absolute; 
+    right:-5px; 
+    top:-5px;
+	cursor:pointer;
+	height:26px;
+	width:26px;
+}
+.overlay .details h2{
+    color: #009DFF;
+    font: bold 16px/21px arial;
+}
+.overlay .details h3{
+    color: #009DFF;
+    font: bold 12px/19px arial;
+}
+.overlay .details h3 a{
+    color: #181818;
+}
+.overlay .details h3 a.pdf{
+    display: block;
+    line-height: 16px;
+    height: 16px;
+    background: transparent url(../images/pdf.gif) no-repeat right center;
+    padding-right: 18px;
+    overflow: hidden;
+}
+.overlay .details h3 a.pdf:hover{
+    color: #868686;
+}
+.overlay .details h4{
+    color: #181818;
+    font: 12px/19px arial;
+    margin-bottom: 10px;
+}
+.overlay .details p{
+    color: #181818;
+    font: 12px/16px arial;
+    margin: 4px 0;
+}
+.overlay .details .hr{
+    clear: both;
+    background: transparent url(../images/dot_bg.gif) repeat-x center center;
+    height: 1px;
+    font: 0/0 arial;
+    padding: 15px 0;
+}
+.overlay .details .hr hr{
+    display: none;
+}
+.overlay .details .left{
+    float: left;
+    width: 52%;
+}
+.overlay .details .right{
+    float: right;
+    width: 47.5%;
+}
+.overlay .details .left h4,
+.overlay .details .right h4{
+    color: #181818;
+    font: bold 12px/15px arial;
+    margin-bottom: 2px;
+}
+.overlay .details .left p,
+.overlay .details .right p{
+    margin-bottom: 4px;
+}
+.overlay .details p.extra{
+    color: #6A6A6A;
+}
+.overlay .details p.extra a{
+    color: #181818;
+}

@@ -1,0 +1,96 @@
+house_task,,0==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Uh oh, looks like your house needs some repairs. Click here to go to your house and see what needs to be fixed.</a>
+house_task,,1==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Oh dear, your house has needed repairs for a while and now the house has degraded a level. Better be quick to fix everything, or your house might become uninhabitable!</a>
+house_task,,2==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Yikes!  Your house has been abandoned for a while now.  Please fix it up within 14 days, or it will sadly become uninhabitable and you will lose it!</a>
+house_task,,3==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Yikes! Your house has been abandoned for quite a while now.  Please fix all the repairs within 7 days, or it will sadly become uninhabitable and you will lose it!</a>
+house_task,,4==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Oh no! Your house hasn't been repaired in ages and now it's all fallen apart.  Sadly, your house has been declared uninhabitable and has been removed.  What better time to start afresh and build a brand new house on your plot?!</a>
+fb_friend_join==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Fantastic news: {$resident_name} has just joined Habitatland! Check out their new house. Did you know? Habitat for Humanity builds a new home somewhere in the world every 24 minutes?</a>
+neighbour_complete_your_task==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Awww, shucks! Someone just repaired your house.  You know the best way to say thank you?  Help your neighbours out on their house and return the favour!</a>
+mayor_alerts==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}">Oooh, someone has been busy! {$resident_name} has just become Mayor of {$neighbourhood_name}. Have you always dreamed of becoming Mayor? Start collecting Ambassador Points so you get a shot at the top office in your community!</a>
+celebrity_house_alerts==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Enjoy star gazing? {$resident_element_name} has just joined {$neighbourhood_name}. Check out their house now!</a>
+donates_community_building==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}/{$map_matrix_id}">Great news! {$resident_name} has just donated a {$resident_element_name} to your community. That's pretty sweet! Don't forget, you can also help out your community and collect Ambassador Points when you donate a community building!</a>
+neighborhood_full==<a href="{$CFG->wwwroot}#a_play/{$neighbourhood_id}">Wow, look at that! Your neighbourhood is now full.  Well done! You have helped build a fantastic and thriving community.  Find another neighbourhood so you can build more houses and create another super active community.</a>
+general,,0==There are {$celebrity_qty} celebrity houses in HabitatLand. Check them out now!
+general,,1==You look like you could do with some company! Get yourself an animal.
+general,,2==Make sure to collect Ambassador Points by helping out your neighbours. Simply click on their houses and help keeping them up to scratch.
+general,,3==Did you know you can donate Community buildings to your community. Simply find the empty plots designated for a community building and donate!
+general,,4==Did you know that every time you buy more credits 100% of your purchase goes to Habitat for Humanity Australia to build real houses in real communities.
+choose_your_neighbourhood==Welcome to Habitatland! You can see all our neighborhoods, check out their community rating and choose the community you want to join. Did you know, Habitat for Humanity is the world's number one not-for-profit provider of housing for low income families in need? [Share this fact]
+task_done_other==Love your work! Thanks for helping out a neighbour.
+task_done_self==Nice work! Your house is now all fixed! Time to check out what other tasks you can complete around the neighbourhood. 
+task_done_community==You beauty! Thanks for helping out!
+land_unexist==Plot is not exist in current community.
+land_sold_already==Plot is sold already.
+land_reserved==Plot is reserved for other player.
+land_not_yours==Not your plot.
+not_current_neighbourhood==You are not in current neighbourhood.
+not_enough_credit==credit is not enough, Donante and get more credit.
+building_element_unexist==Building element does not exist.
+resident_element_unexist==Resident Element is not exist.
+resident_element_type_unexist==Resident Element Type is not exist.
+resident_element_type_unavailable==Resident Element Type is not available.
+buy_resident_element_db_error==buy map building error.
+buy_property_success==You got the property.
+buy_house_success==Congratulations, your property job is done!
+resident_rating_increase== You've earned {$intAddRating} Ambassador Points.
+resident_community_level_up==Level up! Now your community level is {$intlevel}.
+resident_credit_reward==Credit reward for Level up, you just received {$intAddCredit} credits.
+parsing_building_filename_error==error, item is not exist.
+parsing_building_filename_parts_qty_error==error, item qty is not valid.
+resident_element_not_for_sale==Resident Element is not for purchase.
+your_building==You already owned the property.
+build_house_1st=Please build your house before build anything else.
+inactive_resident_for_enable_community_property==You need have at least one property in current neighbourhood to financing Community infrastructure.
+no_community_land==It is not a community plot, no community property to be enabled.
+community_property_unexist==Community infrastructure does not exist.
+resident_element_not_for_private==Building Element is not for private purchase.
+resident_element_not_for_public==Selected property is belone to community.
+resident_element_not_for_enable==Selected property is not a community infrastructure.
+land_not_for_sale==Plot is not for sale.
+community_property_enabled_already==Community infrastructure is alredy enabled.
+community_property_success_enabled==You are amazing! Thank you for donating a {$resident_element_name} to your community! Nice work!
+inactive_resident_for_task==You need have at least one property in current neighbourhood to do any tasks.
+no_more_task==You cannot do more task for this neighbourhood any more today.
+task_unexist==Task is not exist.
+task_unavailable==Task is not availabl.
+task_already_done==Sorry, task had been done already.
+task_not_start==Sorry, task has not started yet.
+inactive_resident_for_reserve_land==You need have at least one property in current neighbourhood before reserve any plots.
+inactive_resident_for_play_game==You need have at least one property in current neighbourhood to start any games.
+resident_finish_game==Now that was impressive! Well done! You completed the Mini Game in time. Thanks for giving back to your community. 
+land_name_required==Please supply name.
+profanity_contents==Profanity contents.
+referral_all_error==all,,please supply email and name.
+referral_email_error==email,,{$intPos},,format error.
+referral_name_error==name,,{$intPos},,format error.
+coupon_used==Coupon code was used.
+coupon_unavailable==Coupon code is not available any more.
+coupon_unavailable_yet==Coupon code is not available yet.
+coupon_expired==Coupon code is expired.
+coupon_unexist==Coupon code is not exist.
+coupon_success==Use Cuppon Code successfull, you just received {$intCredits} credits.
+order_first_name_error==Wrong First Name field length.
+order_last_name_error==Wrong Last Name field length.
+order_email_error==Invalid Email Address.
+order_address_error==Wrong Address field length.
+order_postcode_error==Wrong Postcode field length.
+order_card_name_error==Wrong Card Holders Name field length.
+order_card_number_error==Wrong Card Card Number field length.
+order_card_expire_month_error==Wrong Card Expiry Month.
+order_card_expire_year_error==Wrong Card Expiry Year.
+order_pack_unexist==Credits pack is not existed.
+neighbourhood_id_error==Please supply neighbourhood id.
+land_id_error==Please supply polt id.
+facebook_friend_info_require_error==not friends, permission denied.
+notification_require_error==Id supply out of range.
+insert_order_error==Internal place order error.
+update_map_building_error==update map building error.
+buy_plot_error==buy map item error.
+name_property_error==name property error.
+buy_land==Do you want to buy this plot for 100 credits?
+buy_land_error==buy plot error.
+reserved_success==You reserved the property.
+order_status_error==internal transaction status error.
+order_thanks_for_donating==You're a superstar! Thanks for donating to Habitat for Humanity Australia.  You have helped us move a step closer to our goal of building 1000 homes for families in need by 2013. Your credits will be added to your Hope Fund.
+credit_db_remove_error==Credit spend error.
+credit_remove==You just lost {$intCredit} credit(s).
+community_property_enabled_db_error==Financing Community infrastructure error.

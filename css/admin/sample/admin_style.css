@@ -1,0 +1,124 @@
+body.admin{
+	background: black none;
+}
+body.admin div.outter_container{
+	background: transparent none;
+	padding: 0;
+}
+body.admin div.container > div.header{
+	height: 195px;
+}
+body.admin div.container > div.header > div.logo_bg_l{
+	height: 165px;
+	background: transparent url(logo.gif) no-repeat -70px 0;
+}
+body.admin div.container > div.header > div.logo_bg_l > div.logo_bg_r > .logo_bg{
+	padding-top: 140px;
+}
+body.admin div.container > div.header h1.logo_bg span > a{
+	background-color: transparent;
+	border: 0 none;
+	letter-spacing:1px;
+	color: #fff94c;
+}
+body.admin div.container > div.header h1.logo_bg span > a q{
+	quotes: "[" "]";
+}
+body.admin div.container > div.header > div.nav{
+	background-color: #F0DA63;
+	border: 0 none;
+	height: 29px;
+}
+body.admin div.container > div.header > div.nav ul{
+	border-top: 1px solid #c8b23b;
+	background: #f0da63 none;
+	font-size:13px;
+	font-weight:bold;
+	line-height:29px;
+	margin:0;
+	padding:0 7px;
+}
+body.admin div.container > div.header > div.nav ul li{
+	height: 29px;
+}
+body.admin div.container > div.header > div.nav ul li a {
+	color: #000;
+	letter-spacing:1px;
+}
+body.admin div.container > div.header > div.nav ul li + li a{
+	border-left:1px solid #000;
+}
+body.admin div.container > div.footer{
+	color: #000;
+}
+body.admin div.container > div.footer > div.col_group{
+	background:#f5e85c url(foot_bg.gif) repeat-x;
+}
+body.admin div.container > div.footer > div.col_group div ul {
+	list-style-type:circle;
+}
+body.admin div.container > div.footer > div.col_group > div > h3 {
+	border-bottom: 1px solid black;
+	color: black;
+}
+body.admin div.container > div.footer > p.info{
+	color: white;
+}
+body.admin form input[type="button"], body.admin form input[type="submit"]{
+	background:#b2b2b2 url(tool_bar.gif) repeat-x scroll 0 0;
+	border:1px solid #C7CBCE;
+	color:white;
+	padding:2px;
+	margin-left: 2px;
+}
+body.admin div.container div.body {
+	background:white none;
+	border:0 none;
+	margin-top: 0;
+	padding:1px;
+}
+div.tools{
+	background: #aeaeae url(tool_bar.gif) repeat-x;
+}
+.tool_icon {
+	text-shadow:0 2px 0 #9b9b9b;
+	filter: Shadow(Color=#9b9b9b, Direction=135, Strength=1);
+	color:white;
+}
+.tool_icon:hover{
+	border-top-color: #9B9A99;
+	border-left-color: #9B9A99;
+	border-right-color: white;
+	border-bottom-color: white;
+	background-color: #c6c6c6;
+}
+div.tools > ul > li > .tool_icon:hover{
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: #9B9A99;
+	border-bottom-color: #9B9A99;
+	background-color: #c6c6c6;
+}
+body.admin div.custom_field > div.page_content table.image_list > thead{
+	background: #b2b2b2 url(tool_bar.gif) repeat-x scroll 0 0;
+}
+body.admin div.custom_field > div.page_content table.image_list > thead th{
+	font-weight: bold;
+}
+body.admin div.container div.page_content table.image_list > tbody{
+}
+body.admin div.custom_field > div.page_content table.image_list > tbody > tr {
+	background-color: #f6f2c8;
+}
+body.admin div.custom_field > div.page_content table.image_list > tbody > tr.alt {
+	background-color:#dedede;
+}
+div.tools > ul.pagination > li > a{
+	background: #b2b2b2 url(tool_bar.gif) repeat-x;
+}
+div.tools > ul.pagination > li.selected > a{
+	background: #c6c6c6 none;
+}
+div.tools > ul.pagination > li > a:hover{
+	background: #969696 none;
+}

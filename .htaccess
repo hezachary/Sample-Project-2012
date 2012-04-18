@@ -1,0 +1,19 @@
+Options -Indexes
+#Options +FollowSymlinks 
+
+<Files ~ "\.(inc|sql|tpl|ini)$">
+  order allow,deny
+  deny from all
+</Files>
+
+RewriteEngine on
+
+
+#RewriteBase /
+
+# do not rewrite these directory
+
+# everything to index.php ecxept those ..
+# RewriteRule (detail|page)\/.*+$ redirect.php
+RewriteRule ^(.*/)?\.svn/ - [F,L]
+

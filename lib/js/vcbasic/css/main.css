@@ -1,0 +1,43 @@
+.headerWarp{ background:url(../images/bg01.png) repeat-x top left;}
+.formSearch{ background:url(../images/seach02.png) no-repeat top left; padding-top:3px; }
+.formSearch label{ visibility:hidden;}
+.formSearch input.inputText{ border:0px;}
+.formSearch button.button span{ padding:0px; border:0px;background:none;}
+.formSearch button.button span span{ text-indent:-9999px;}
+.rightTop a.buttonRed{ padding:0px; width:130px; height:37px; line-height:37px; background:url(../images/btnr.png) no-repeat top left;}
+.navDropdown{ background:#fcfcfc url(../images/bg02.png) repeat-x left bottom; }
+.navDropdown ul.dropdownNav{ background-color:#fff;}
+.navDropdownTitle{ background:url(../images/bg03.png) repeat-x top left;}
+.navDropdownTitle .away{ padding-right:15px;background:url(../images/awayA.png) no-repeat right 6px; color:#6a6a6a;}
+.navDropdown ul.dropdownNav li{border:0px; background:url(../images/bg04.png) repeat-y top right;}
+.navDropdown ul.dropdownNav dl dt{ background:url(../images/rightA.png) no-repeat top left; padding-left:31px; padding-top:3px; height:57px;}
+.navDropdown ul.dropdownNav dl dt.drop{ background:url(../images/bottA.png) no-repeat top left;}
+.nav ul li{ margin-right:0px;}
+.nav ul li a.navTit,.nav ul li a.navTit:hover ,.nav ul li a.navTit.active{ background:url(../images/nav.gif) no-repeat top left; height:64px;}
+.nav ul li a.navTit span{ visibility:hidden;}
+.nav ul li.navAbout a.navTit{ width:76px; background-position:0px -64px;}
+.nav ul li.navResearch a.navTit{ width:123px;background-position:-76px -64px; }
+.nav ul li.navNews a.navTit{ width:126px; background-position:-203px -64px;}
+.nav ul li.navHealth a.navTit{ width:124px; background-position:-329px -64px;}
+.nav ul li.navStudy a.navTit{ width:134px; background-position:-460px -64px;}
+.nav ul li.navSupport a.navTit{ width:105px; background-position:-594px -64px;}
+.nav ul li.navAbout a.navTit:hover,.nav ul li.navAbout a.navTit.active{ background-position:0px 0px; }
+.nav ul li.navResearch a.navTit:hover,.nav ul li.navResearch a.navTit.active{ background-position:-76px 0px;}
+.nav ul li.navNews a.navTit:hover,.nav ul li.navNews a.navTit.active{ background-position:-203px 0px;}
+.nav ul li.navHealth a.navTit:hover,.nav ul li.navHealth a.navTit.active{ background-position:-329px 0px;}
+.nav ul li.navStudy a.navTit:hover,.nav ul li.navStudy a.navTit.active{background-position:-460px 0px; }
+.nav ul li.navSupport a.navTit:hover,.nav ul li.navSupport a.navTit.active{ background-position:-594px 0px;}
+.colLeft ul.slidNav01 li{ background:url(../images/bg06.gif) no-repeat top left; }
+.colLeft ul.slidNav01 li a.slidNav01Tit{ background:url(../images/rightA.png) no-repeat 15px 14px;padding-top:15px; color:#fff;}
+.colLeft ul.slidNav01 li:hover,.colLeft ul.slidNav01 li.active{ background:url(../images/bg07.gif) no-repeat top left;}
+.colLeft ul.slidNav01 li a.slidNav01Tit:hover,.colLeft ul.slidNav01 li a.slidNav01Tit.active{ background:url(../images/bottA.png) no-repeat 180px 15px; color:#fff;}
+.colLeft ul.slidNav01 ul.slidNav02 li{ background:url(../images/bg08.png) repeat-y  bottom left; }
+.colLeft ul.slidNav01 ul.slidNav02 li a{ line-height:13px;padding-top:14px; padding-bottom:14px;}
+.colLeft ul.slidNav01 ul.slidNav02 li:hover,.colLeft ul.slidNav01 ul.slidNav02 li.active{ background:url(../images/bg08.gif) repeat-y top left;}
+.colLeft ul.slidNav01 ul.slidNav02 li a:hover,.colLeft ul.slidNav01 ul.slidNav02 li a.active{ background:url(../images/righsmA.png) no-repeat 197px 15px;}
+.footerWarp{ background:url(../images/bg05.png) repeat top left; border-top:1px solid #dfdfdf;}
+.footEmail{ background:url(../images/seach.png) no-repeat  98px 13px;}
+.footEmail input.inputText{ border:0px; margin:5px 10px; width:170px;}
+.footEmail button.button span{ padding:0px; border:0px;background:none;}
+.footEmail button.button span span{ text-indent:-9999px;}
+

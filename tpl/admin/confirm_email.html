@@ -1,0 +1,48 @@
+{assign var="utm" value=$CFG->utm}
+{if $mode != 'online'}<p style="color: rgb(102, 102, 102); font-family: Arial,Helvetica,sans-serif; font-size: 11px;" align="center">If you are having trouble viewing this email, <a style="text-decoration: none; color: rgb(204, 204, 204);" href="{$CFG->wwwroot}email/email_online.php?{$utm}&e_lk={$uniqueId}" target="_blank">click here</a> to view it online</p>{/if}
+{if $status == 'approved'}
+<table align="center" width="600" height="572" border="0" cellpadding="0" cellspacing="0" bgcolor="black">
+<tr><td width="600" height="69" colspan="3"><img src="{$CFG->wwwroot}email/images/approved/01.gif" alt="Tommy Hilfiger Be Loud" width="600" height="69" style="display: block;" border="0"></td></tr>
+<tr>
+	<td width="264" align="left" valign="top"><img src="{$CFG->wwwroot}email/images/approved/02.gif" alt="LOUD EXPRESSIONS" width="264" height="136" style="display: block;" border="0"></td>
+	<td width="300" align="left" valign="top"><span style="font-family: Verdana,Arial,sans-serif; font-size: 16px; font-weight:bold; line-height: 18px; color: white;">Hi {$obj_poster->register_name},</span><br>
+<span style="font-family: Verdana,Arial,sans-serif; font-size: 22px; font-weight:bold; line-height: 24px; color: white;">Nice one, your expression has been heard!</span><br/>
+<span style="font-family: Verdana,Arial,sans-serif; font-size: 16px; line-height: 18px; color: white;">Your poster's been approved and ready for votes. Refer your poster to your friends and get them voting now. <font color="#eee200">Good luck!</font></span></td>
+	<td width="36" align="left" valign="top"><img src="{$CFG->wwwroot}email/images/approved/04.gif" alt="Tommy Hilfiger Be Loud" width="36" height="136" style="display: block;" border="0"></td>
+</tr>
+<tr><td width="600" height="40" colspan="3"><img src="{$CFG->wwwroot}email/images/approved/05.jpg" alt="Tommy Hilfiger Be Loud" width="600" height="40" style="display: block;" border="0"></td></tr>
+<tr>
+	<td width="264" height="55"><img src="{$CFG->wwwroot}email/images/approved/06.jpg" alt="Tommy Hilfiger Be Loud" width="264" height="55" style="display: block;" border="0"></td>
+	<td width="300" height="55"><a href="{$CFG->wwwroot}handle.php?e_lk={$uniqueId}" title="Get Some Votes" target="_blank"><img src="{$CFG->wwwroot}email/images/approved/07.jpg" alt="Get Some Votes" width="300" height="55" style="display: block;" border="0"></a></td>
+	<td width="36" height="55"><img src="{$CFG->wwwroot}email/images/approved/08.jpg" alt="Tommy Hilfiger Be Loud" width="36" height="55" style="display: block;" border="0"></td>
+</tr>
+<tr><td width="600" height="129" colspan="3"><img src="{$CFG->wwwroot}email/images/approved/09.jpg" alt="Tommy Hilfiger Be Loud" width="600" height="129" style="display: block;" border="0"></td></tr>
+<tr><td width="600" height="143" colspan="3"><img src="{$CFG->wwwroot}email/images/approved/10.jpg" alt="Approved" width="600" height="143" style="display: block;" border="0"></td></tr>
+</table>
+{elseif $status == 'denied'}
+<table align="center" width="600" height="662" border="0" cellpadding="0" cellspacing="0" bgcolor="black">
+<tr><td width="600" height="41" colspan="4"><img src="{$CFG->wwwroot}email/images/rejected/01.gif" alt="Tommy Hilfiger Be Loud" width="600" height="41" border="0" style="display: block;"></td></tr>
+<tr>
+	<td width="25" align="left" valign="top"><img src="{$CFG->wwwroot}email/images/rejected/02.gif" alt="Tommy Hilfiger Be Loud" width="25" height="115" border="0" style="display: block;"></td>
+	<td width="256" align="left" valign="top"><img src="{$CFG->wwwroot}email/images/rejected/03.gif" alt="LOUD EXPRESSIONS" width="256" height="115" border="0" style="display: block;"></td>
+	<td width="284" align="left" valign="top"><span style="font-family: Verdana,Arial,sans-serif; font-size: 20px; line-height: 24px; color: white;">Hi {$obj_poster->register_name},<br><strong>Whoops!</strong> Your street poster design has not met the LOUD expressions approval standards.</span></td>
+	<td width="35" align="left" valign="top"><img src="{$CFG->wwwroot}email/images/rejected/05.gif" alt="Tommy Hilfiger Be Loud" width="35" height="115" border="0" style="display: block;"></td>
+</tr>
+<tr>
+	<td height="158"><img src="{$CFG->wwwroot}email/images/rejected/06.gif" alt="Tommy Hilfiger Be Loud" width="25" height="158" border="0" style="display: block;"></td>
+	<td><img src="{$CFG->wwwroot}email/images/rejected/07.gif" alt="For more information on poster guidelines please click here!" width="256" height="158" border="0" style="display: block;"></td>
+	<td><img src="{$CFG->wwwroot}email/images/rejected/08.gif" alt="It's probably got a swear in it right? Or maybe you got [creative] and managed to draw something offensive. Chances are if you've got the creative flare to abuse the system you've probably got what it takes to win. So why not submit a new design?" width="284" height="158" border="0" style="display: block;"></td>
+	<td><img src="{$CFG->wwwroot}email/images/rejected/09.gif" alt="Tommy Hilfiger Be Loud" width="35" height="158" border="0" style="display: block;"></td>
+</tr>
+<tr><td height="27" colspan="4"><img src="{$CFG->wwwroot}email/images/rejected/10.gif" alt="" width="600" height="27" border="0" style="display: block;"></td></tr>
+<tr>
+	<td height="55"><img src="{$CFG->wwwroot}email/images/rejected/11.gif" alt="Tommy Hilfiger Be Loud" width="25" height="55" border="0" style="display: block;"></td>
+	<td><img src="{$CFG->wwwroot}email/images/rejected/12.jpg" alt="Gifts" width="256" height="55" border="0" style="display: block;"></td>
+	<td><a href="{$CFG->wwwroot}handle.php?e_lk={$uniqueId}" title="CREATE NEW DESIGN" target="_blank"><img src="{$CFG->wwwroot}email/images/rejected/13.jpg" alt="CREATE NEW DESIGN" width="284" height="55" border="0" style="display: block;"></a></td>
+	<td><img src="{$CFG->wwwroot}email/images/rejected/14.jpg" alt="" width="35" height="55" border="0" style="display: block;"></td>
+</tr>
+<tr><td colspan="4"><img src="{$CFG->wwwroot}email/images/rejected/15.jpg" alt="Tommy Hilfiger Be Loud" width="600" height="118" border="0" style="display: block;"></td></tr>
+<tr><td colspan="4"><img src="{$CFG->wwwroot}email/images/rejected/16.jpg" alt="Tommy Hilfiger Be Loud" width="600" height="148" border="0" style="display: block;"></td></tr>
+</table>
+{/if}
+<img style="display:block;" src="{$CFG->wwwroot}pixel.php?e_mo={$uniqueId}" border="0" alt="{$CFG->project}" width="100" height="2" />

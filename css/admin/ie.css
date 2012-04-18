@@ -1,0 +1,19 @@
+p#product-info{font-size:1.3em; vertical-align:text-bottom; position:relative; top:5px;}
+p#terms {width:254px;vertical-align:text-top; padding-top:15px;}
+
+.textbox {background-color:#3b2b26; border:#fff solid 1px; height:20px; margin-right:2px; padding:0; color:#fff; font-size:14px; margin-bottom:2px; line-height:20px;}
+.dropdown {background-color:#3b2b26; border:none; height:24px; color:#fff; font-size:14px; position:relative; top:5px; margin-bottom:5px; margin-right:2px;}
+.textbox.name , .textbox.email {width:180px}
+.textbox.mobile {width:120px}
+.dropdown.age {width:54px}
+.dropdown.store{width:182px}
+.dropdown.product{float:left; width:115px; left:-2px;}
+.submitform {margin-left:15px; margin-top:10px;}
+
+.prefil.name{top:225px; left:120px;}
+.prefil.email{top:250px; left:120px;}
+.prefil.phone{top:274px; left:120px;}
+.prefil.product{top:297px; left:350px; width:300px}
+.checkbox {top:322px; left:65px;}
+
+.registerhere {margin-bottom:-5px}
